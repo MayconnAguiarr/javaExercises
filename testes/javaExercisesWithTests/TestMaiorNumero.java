@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import maiorNumero.MaiorNumero;
+import exercicio1.MaiorNumero;
 
-public class MaiorValorTeste {
+public class TestMaiorNumero {
 
 	private MaiorNumero maiorNumero = new MaiorNumero();
 

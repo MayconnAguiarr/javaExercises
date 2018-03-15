@@ -1,4 +1,4 @@
-package maiorNumero;
+package exercicio1;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Main {
 	private static MaiorNumero maiorNumero = new MaiorNumero();
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in); 
 		
 		System.out.println("Digite o primeiro valor");
 		String valor1 = input.nextLine().trim();

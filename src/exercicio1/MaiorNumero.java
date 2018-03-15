@@ -1,4 +1,4 @@
-package maiorNumero;
+package exercicio1;
 
 public class MaiorNumero { 
 
