@@ -13,9 +13,6 @@ public class MaiorNumero {
 		} else if (valor2 > valor1) {
 			maior = valor2;
 		}
-
-		System.out.println("O maior valor é :" + maior);
-
 		return maior;
 	}
 }
