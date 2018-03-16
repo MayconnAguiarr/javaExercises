@@ -1,10 +1,5 @@
 package exercicio2;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-import javax.sound.midi.Soundbank;
-
 public class Main {	
 	
 	private static Agenda agenda = new Agenda();
@@ -28,7 +23,7 @@ public class Main {
 		System.out.println(agenda.buscarPor("Maycon"));
 		System.out.println(" ");
 		
-		System.out.println("Nova lista após remoção:");
+		System.out.println("Nova lista após remover: " + contato3.getNome() + " e " + contato4.getNome());
 		agenda.removerContato(contato3);
 		agenda.removerContato(contato4);
 		System.out.println(agenda.listar());		
